@@ -1,0 +1,17 @@
+.app-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.todoListTable {
+  margin-left: 20px; /* Add some spacing between the tables */
+  margin-top: 20px;
+}
+.user-details {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top:1.65% ;
+  margin-left: 1%;
+}

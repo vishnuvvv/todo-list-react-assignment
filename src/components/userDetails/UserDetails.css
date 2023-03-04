@@ -1,0 +1,29 @@
+.userDetailsBox {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 10px;
+  background-color: beige;
+  border-radius: 5px;
+  display: flex;
+}
+
+.userDetailsBox > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.userDetailsBox > div > div:first-child {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.userDetailsBox > div > div:last-child {
+  font-style: italic;
+}
+
+
